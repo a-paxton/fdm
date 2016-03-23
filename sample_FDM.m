@@ -5,8 +5,6 @@
 % Conversation" (Paxton & Dale, 2013; Behavior Research Methods). This paper was supported
 % by the National Science Foundation under grants [BCS-0826825 and BCS-0926670].
 
-% Be sure to save this text file as a .m file before use!
-
 %% PROCESSING LOOP % PROCESSING LOOP % PROCESSING LOOP % PROCESSING LOOP %
 
 % insert appropriate directory below
