@@ -12,7 +12,9 @@ cd('directory');
 
 % basic variables
 h = gcf;
-win_size = 150;
+sampling_rate = 8; % sampling rate (number of images per second generated from video)
+target_window = 30; % desired window size (in seconds) for cross-corelation function
+win_size = sampling_rate * target_window; % window size (in slices) for cross-correlation function
 
 % fetch images
 imgpath = 'img_*.jpg';
