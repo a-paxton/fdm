@@ -91,7 +91,7 @@ data_out = fopen('sample.FDM.csv ','w');
 disp('Text File Created.')  
 
 % fill the file with data 
-for x_corr=1:301
+for x_corr=-win_size:win_size
      % cross-correlation coefficients
      fprintf(data_out,'%d,',eval(['dy_xcorrs(' int2str(x_corr) ')']));
   
