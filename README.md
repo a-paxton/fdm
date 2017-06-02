@@ -1,4 +1,4 @@
-#Frame differencing method: Automatic extraction of movement from video data
+# Frame differencing method: Automatic extraction of movement from video data
 
 This frame differencing method (FDM) automatically extracts movement from video data by detecting changes in pixels across frames. Currently, this FDM runs exclusively through MATLAB.
 
